@@ -10,7 +10,7 @@ namespace OOP_Nakladak
     {
         public string Znacka { get; set; }
         public int Nosnost { get; set; }
-        public int Nalozit { get; set; }
+        public int Nalozeno { get; set; }
         public int Objemnadrze { get; set; }
         public int Spotreba { get; set; }
         public int Palivo { get; set; }
@@ -21,7 +21,7 @@ namespace OOP_Nakladak
         public nakladak()
         {
             Nosnost = 0;
-            Nalozit = 0;
+            Nalozeno = 0;
             Objemnadrze = 0;
             Spotreba = 0;
             Palivo = 0;

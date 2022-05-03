@@ -7,16 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="193" Width="180" RenderTransformOrigin="-0.42,-1.894"/>
-        <Button Content="Nalozit" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Height="40" Width="80"/>
+        <Button Content="Nalozit" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Height="40" Width="80" Click="Button_Click"/>
         <Button Content="Vylozit" HorizontalAlignment="Left" Margin="111,217,0,0" VerticalAlignment="Top" Height="40" Width="80"/>
         <Button Content="Jet" HorizontalAlignment="Left" Margin="111,262,0,0" VerticalAlignment="Top" Height="40" Width="80" RenderTransformOrigin="-0.828,1.827"/>
         <Button Content="Nacepovat" HorizontalAlignment="Left" Margin="10,262,0,0" VerticalAlignment="Top" Height="40" Width="80"/>
-        <TextBlock HorizontalAlignment="Left" Margin="609,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="193" Width="180"/>
         <Button Content="Nalozit" HorizontalAlignment="Left" Margin="609,217,0,0" VerticalAlignment="Top" Width="80" Height="40"/>
         <Button Content="Vylozit" HorizontalAlignment="Left" Margin="710,217,0,0" VerticalAlignment="Top" Height="40" Width="80" RenderTransformOrigin="0.993,0.514"/>
         <Button Content="Nacepovat" HorizontalAlignment="Left" Margin="609,267,0,0" VerticalAlignment="Top" Height="40" Width="80"/>
         <Button Content="Jet" HorizontalAlignment="Left" Margin="710,267,0,0" VerticalAlignment="Top" Width="80" Height="40"/>
+        <TextBox Name="Nakladak1" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="181" Height="193"/>
+        <TextBox Name="Nakladak2" HorizontalAlignment="Left" Margin="609,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="181" Height="193"/>
 
 
 

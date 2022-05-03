@@ -34,6 +34,34 @@ namespace OOP_Nakladak
             Fiat.Znacka = "Fiat";
         }
 
-        public void Zobraz(nakladak nakladak, )
+        public void Zobraz1(nakladak Volvo, TextBox textBox)
+        {
+            Nakladak1.Text = Volvo.Znacka + "\n";
+            Nakladak1.Text += "Nosnost: " + Volvo.Nosnost.ToString() + "\n";
+            Nakladak1.Text += "Nalozeno: " + Volvo.Nalozeno.ToString() + "\n";
+            Nakladak1.Text += "Objem nadrze: " + Volvo.Objemnadrze.ToString() + "\n";
+            Nakladak1.Text += "Spotreba: " + Volvo.Spotreba.ToString() + "\n";
+            Nakladak1.Text += "Palivo: " + Volvo.Palivo.ToString() + "\n";
+            Nakladak1.Text += "Vzdalenost" + Volvo.Vzdalenost.ToString() + "\n";
+        }
+
+
+        public void Zobraz2(nakladak Fiat, TextBox textBox)
+        {
+            Nakladak2.Text = Volvo.Znacka + "\n";
+            Nakladak2.Text += "Nosnost: " + Volvo.Nosnost.ToString() + "\n";
+            Nakladak2.Text += "Nalozeno: " + Volvo.Nalozeno.ToString() + "\n";
+            Nakladak2.Text += "Objem nadrze: " + Volvo.Objemnadrze.ToString() + "\n";
+            Nakladak2.Text += "Spotreba: " + Volvo.Spotreba.ToString() + "\n";
+            Nakladak2.Text += "Palivo: " + Volvo.Palivo.ToString() + "\n";
+            Nakladak2.Text += "Vzdalenost" + Volvo.Vzdalenost.ToString() + "\n";
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Volvo.Nalozit();
+            Zobraz1(Volvo, txt1);
+
+        }
     }
 }
