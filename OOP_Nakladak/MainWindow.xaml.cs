@@ -57,39 +57,44 @@ namespace OOP_Nakladak
             Nakladak2.Text += "Vzdalenost" + Volvo.Vzdalenost.ToString() + "\n";
         }
 
-        private void Nalozit_Click1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Jet_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void _Click(object sender, RoutedEventArgs e)
-        {
-
+            //****
         }
 
         private void Vylozit_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void Vy(object sender, RoutedEventArgs e)
-        {
-            
+            //*****
         }
 
         private void Nacepovat1_Click(object sender, RoutedEventArgs e)
         {
-
+            //---
         }
 
         private void Jet1_Click(object sender, RoutedEventArgs e)
         {
+            //--
+        }
 
+        private void Nalozit_Click(object sender, RoutedEventArgs e)
+        {
+            //******
+        }
+
+        private void Nacepovat_Click(object sender, RoutedEventArgs e)
+        {
+            //***
+        }
+
+        private void Nalozit1_Click(object sender, RoutedEventArgs e)
+        {
+            //*
+        }
+
+        private void Vylozit1_Click(object sender, RoutedEventArgs e)
+        {
+            //----
         }
     }
 }
